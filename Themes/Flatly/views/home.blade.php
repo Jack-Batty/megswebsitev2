@@ -9,8 +9,21 @@
 @stop
 
 @section('content')
+    <div class="row" style="text-align: center;">
+        {{-- <h1>{{ $page->title }}</h1> --}}
+        <div style="width: 74%; margin-left: 13%; line-height: 1.5em !important;">
+            {!! $page->body !!}
+        </div>
+    </div>
     <div class="row">
-        <h1>{{ $page->title }}</h1>
-        {!! $page->body !!}
+        <div class="col-md-4">
+            <img style="max-width: 100%;" src="/assets/media/images/about/About page/edit.jpg" />
+        </div>
+        <div class="col-md-4">
+            <img style="max-width: 100%;" src="/assets/media/images/about/About page/MeganChadderton3.jpg" />
+        </div>
+        <div class="col-md-4">
+            <img style="max-width: 100%;" src="/assets/media/images/about/About page/megartwork.jpg" />
+        </div>
     </div>
 @stop

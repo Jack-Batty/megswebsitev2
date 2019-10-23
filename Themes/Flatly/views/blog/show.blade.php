@@ -9,7 +9,8 @@
         <div class="col-lg-12">
         <span class="linkBack">
             <a href="{{ URL::route($currentLocale . '.blog') }}"><i class="glyphicon glyphicon-chevron-left"></i> Back to post list</a>
-        </span>
+        </span><br /><br />
+        <img src="{{ Imagy::getThumbnail($post->files->first()->path, 'blogThumb') }}" alt="" />
         <h1>{{ $post->title }}</h1>
         <span class="date">{{ $post->created_at->format('d-m-Y') }}</span>
 

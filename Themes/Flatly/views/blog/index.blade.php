@@ -14,8 +14,9 @@
             <ul>
                 <?php foreach ($posts as $post): ?>
                     <li>
-                        <span class="date">{{ $post->created_at->format('d-m-Y') }}</span>
+                        <img src="{{ Imagy::getThumbnail($post->files->first()->path, 'blogThumb') }}" alt="" />
                         <h3><a href="{{ URL::route($currentLocale . '.blog.slug', [$post->slug]) }}">{{ $post->title }}</a></h3>
+                        <span class="date">{{ $post->created_at->format('d-m-Y') }}</span>
                     </li>
                     <div class="clearfix"></div>
                 <?php endforeach; ?>
