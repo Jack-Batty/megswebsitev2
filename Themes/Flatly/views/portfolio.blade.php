@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-4">
             <a href="../portfolio/print">
-                <img style="max-width: 100%; max-height: 300px;" src="/assets/media/images/portfolio/Print/Thumbnail.jpg"/>
+                <img style="max-width: 100%; max-height: 300px;" src="/assets/media/images/portfolio/Print/thumbnail.jpg"/>
                 <h2>Print</h2>
             </a>
         </div>
@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-4" style="margin-bottom: 40px;">
             <a href="../portfolio/illustration">
-                <img style="max-width: 100%; max-height: 300px;" src="/assets/media/images/portfolio/Illustration/Thumbnail.jpg"/>
+                <img style="max-width: 100%; max-height: 300px;" src="/assets/media/images/portfolio/Illustration/thumbnail.jpg"/>
                 <h2>Illustration</h2>
             </a>
         </div>
@@ -49,7 +49,7 @@
     </div>
     <div class="row">
         <div class="col-md-4" style="margin-bottom: 40px;">
-            <img style="max-width: 100%; max-height: 300px;" src="/assets/media/images/portfolio/Photography/thumbnail.jpg"/>
+            <img style="max-width: 100%; max-height: 300px;" src="/assets/media/images/portfolio/photography/thumbnail.jpg"/>
             <h2>Photography</h2>
         </div>
         {{-- <div class="col-md-4" style="margin-bottom: 40px;">

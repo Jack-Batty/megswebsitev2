@@ -30,8 +30,8 @@
     <header style="padding-bottom: 40px;">
         <div class="container-fluid">
           <div class="row-fluid">
-            <div class="col-md-12 text-center"><a href="../home" class="brand"><img alt="Ben" src="@thumbnail('/assets/media/images/logo.svg', 'smallThumb')" class="default"></a>
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <div class="col-sm-12 col-md-12 text-center"><a href="../../../" class="brand"><img alt="Ben" src="@thumbnail('/assets/media/images/logo.svg', 'smallThumb')" class="default"></a>
+                <div>
                     {!! Menu::get('menu', 'Modules\Menu\Presenters\MenuPresenter') !!}
                 </div>
             </div>
