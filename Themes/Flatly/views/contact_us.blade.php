@@ -18,7 +18,19 @@
             <h4><a href="mailto:hello@megchadderton.co.uk">hello@megchadderton.co.uk</a></h4>
             <br />
             <a href="https://twitter.com/ArtsyChad">
-                <img src="/assets/media/images/twitter-logo.png" style="max-width: 150px; max-height: 150px;" />
+                <img src="/assets/media/images/twitter-logo.png" style="max-width: 150px; max-height: 150px; margin-bottom: 30px;" />
+            </a>
+            <br />
+            <a href="https://www.facebook.com/ArtsyChad/">
+                <img src="/assets/media/images/facebook.png" style="max-width: 150px; max-height: 150px; margin-bottom: 30px;" />
+            </a>
+            <br />
+            <a href="https://www.linkedin.com/in/megan-chadderton-b48b80195">
+                <img src="/assets/media/images/linkedin.png" style="max-width: 150px; max-height: 150px; margin-bottom: 30px;" />
+            </a>
+            <br />
+            <a href="https://instagram.com/megchad_designs?igshid=40f60jjmqfk">
+                <img src="/assets/media/images/instagram2.jpeg" style="max-width: 150px; max-height: 150px;" />
             </a>
         </div>
         <div class="col-md-6">
